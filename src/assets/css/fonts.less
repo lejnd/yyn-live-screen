@@ -1,0 +1,108 @@
+@icomoon-font-family: "liveicon";
+@icomoon-font-path: "fonts";
+
+@live-icon-ic-live: "\e900";
+@live-icon-ic-stop-path1: "\e901";
+@live-icon-ic-stop-path2: "\e902";
+@live-icon-ic-mute-path1: "\e903";
+@live-icon-ic-mute-path2: "\e904";
+@live-icon-ic-sound-path1: "\e905";
+@live-icon-ic-sound-path2: "\e906";
+@live-icon-ic-play-path1: "\e907";
+@live-icon-ic-play-path2: "\e908";
+@live-icon-ic-location: "\e909";
+
+@font-face {
+  font-family: '@{icomoon-font-family}';
+  src:  url('@{icomoon-font-path}/@{icomoon-font-family}.eot?uuyp5j');
+  src:  url('@{icomoon-font-path}/@{icomoon-font-family}.eot?uuyp5j#iefix') format('embedded-opentype'),
+    url('@{icomoon-font-path}/@{icomoon-font-family}.ttf?uuyp5j') format('truetype'),
+    url('@{icomoon-font-path}/@{icomoon-font-family}.woff?uuyp5j') format('woff'),
+    url('@{icomoon-font-path}/@{icomoon-font-family}.svg?uuyp5j#@{icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.live-icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '@{icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.live-icon-ic-live {
+  &:before {
+    content: @live-icon-ic-live;     
+    color: #fff;
+  }
+}
+.live-icon-ic-stop .path1 {
+  &:before {
+    content: @live-icon-ic-stop-path1;  
+    color: rgb(255, 255, 255);  
+    opacity: 0.2;
+  }
+}
+.live-icon-ic-stop .path2 {
+  &:before {
+    content: @live-icon-ic-stop-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.live-icon-ic-mute .path1 {
+  &:before {
+    content: @live-icon-ic-mute-path1;  
+    color: rgb(255, 255, 255);  
+    opacity: 0.2;
+  }
+}
+.live-icon-ic-mute .path2 {
+  &:before {
+    content: @live-icon-ic-mute-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.live-icon-ic-sound .path1 {
+  &:before {
+    content: @live-icon-ic-sound-path1;  
+    color: rgb(255, 255, 255);  
+    opacity: 0.2;
+  }
+}
+.live-icon-ic-sound .path2 {
+  &:before {
+    content: @live-icon-ic-sound-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.live-icon-ic-play .path1 {
+  &:before {
+    content: @live-icon-ic-play-path1;  
+    color: rgb(255, 255, 255);  
+    opacity: 0.2;
+  }
+}
+.live-icon-ic-play .path2 {
+  &:before {
+    content: @live-icon-ic-play-path2;  
+    margin-left: -1em;  
+    color: rgb(255, 255, 255);
+  }
+}
+.live-icon-ic-location {
+  &:before {
+    content: @live-icon-ic-location;     
+    color: #fff;
+  }
+}

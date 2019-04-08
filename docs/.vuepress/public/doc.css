@@ -1,0 +1,49 @@
+html{
+	font-size: 16px!important;
+}
+html body{
+	background-color: #fff !important;
+}
+
+.page .content{
+	min-height: auto;
+	background-color: #fff !important;
+}
+.content:not(.custom){
+	max-width: 1200px!important;
+}
+
+.theme-container > .navbar{
+	border-color: #eaecef !important;
+}
+
+.theme-container > .sidebar{
+	width: 20rem;
+	float: initial;
+	position: fixed;
+}
+
+.theme-container > .sidebar a:hover{
+	color: #3eaf7c;
+	text-decoration: none;
+}
+.wau2-demo{
+	position: relative;
+	width: 1200px;
+	left: 50%;
+	transform: translateX(-50%);
+	right: 0;
+	background-color: #e7e8eb !important;
+}
+
+.wau2-demo-layout{
+	position: relative!important;
+}
+.wau2-demo .content{
+	max-width: 100%!important;
+	position: relative;
+	padding: 0!important;
+}
+table{
+	width: 100%;
+}
